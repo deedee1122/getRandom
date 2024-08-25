@@ -1,0 +1,31 @@
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  
+  .col {
+    width: 100%;
+    background-color: red;
+    border: 1px solid;
+    height: 100px;
+  }
+  
+  .text {
+    background-color: darkblue;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .dark-yellow {
+    background-color: gold;
+  }
+  
+  @media (min-width: 400px) {
+    .row {
+      flex-direction: row;
+    }
+  }
+  
